@@ -1,0 +1,20 @@
+{
+  "id": 193,
+  "title": "Crop Storage Guardian Solar Power Management",
+  "repository_slug": "crop-storage-guardian-solar-power-management",
+  "category": "Smart Agriculture",
+  "platform": "ESP32",
+  "platform_family": "arduino",
+  "difficulty": "Intermediate",
+  "estimated_hours": 32,
+  "connectivity": "RS-485",
+  "components": [
+    "SHT31",
+    "camera module"
+  ],
+  "scope": "Build a smart agriculture prototype that uses SHT31, camera module to manage charging and low-power operation. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Solar Power Management demonstration with repeatable test steps",
+  "mode": "threshold_alert",
+  "entrypoint": "firmware/crop-storage-guardian-solar-power-management/crop-storage-guardian-solar-power-management.ino",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
